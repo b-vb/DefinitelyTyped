@@ -38,7 +38,7 @@ declare namespace Drift {
         /** @default document.body */
         paneContainer?: HTMLElement | undefined;
         /** @default 375 */
-        inlinePane?: number | undefined;
+        inlinePane?: number | boolean | undefined;
         /** @default true */
         handleTouch?: boolean | undefined;
         onShow?: (() => void) | null | undefined;
